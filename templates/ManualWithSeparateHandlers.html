@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+         <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+        <script defer src="{{ url_for('static', filename='script.js') }}"></script>
+        <title>ManualWithSeparateHandlers - Backend2</title>
+    </head>
+    <body>
+        <header>
+            <div class="header">Backend2</div>
+            <div class="home" ><a class ="home" href = "/">Home</a></div>
+        </header>
+        <div class="content">
+            <div class="page_head">ManualWithSeparateHandlers</div>
+            <div class="block">
+                <input type="number" class="first-input">
+                <select name="sign" id="" class="sign">
+                    <option value="+">+</option>
+                    <option value="-">-</option>
+                    <option value="*">*</option>
+                    <option value="/">/</option>
+                </select>
+                <input type="number" class=" second-input">
+                <button class="submit" type="button">Submit</button>
+            </div>
+        </div>
+        <div class="line"></div>
+        <footer>© 2018 - Backend2</footer>
+    </body>
+</html>

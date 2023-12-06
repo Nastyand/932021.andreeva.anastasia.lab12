@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+        <script defer src="{{ url_for('static', filename='script.js') }}"></script>
+        <title>Home Page - Backend2</title>
+    </head>
+    <body>
+        <header>
+            <div class="header">Backend2</div>
+            <div class="home" ><a class ="home" href = "">Home</a></div>
+        </header>
+        <div class="content">
+            <div class="page_head">Form parameters parsing demo</div>
+            <ul>
+                <li><a href="Manual">Manual parsing in single action</a></li>
+                <li><a href="ManualWithSeparateHandlers">Manual parsing in separate actions</a></li>
+                <li><a href="ModelBindingInParameters">Model binding (parameters)</a></li>
+                <li><a href="ModelBindingInSeparateModel">Model binding (separate model)</a></li>
+            </ul>
+        </div>
+        <div class="line"></div>
+        <footer>© 2018 - Backend2</footer>
+    </body>
+</html>
