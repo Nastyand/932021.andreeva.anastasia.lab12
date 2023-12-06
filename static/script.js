@@ -11,8 +11,8 @@ function getReult(first_value, second_value, sign){
 
 document.addEventListener('DOMContentLoaded', function(){
     document.querySelector('.submit').onclick = function(){
-        first_value = document.querySelector('.first-input').value
-        second_value = document.querySelector('.second-input').value
+        first_value = document.querySelector('.first_input').value
+        second_value = document.querySelector('.second_input').value
         sign = document.querySelector('.sign').value
         if (first_value.length !=0 && second_value.length !=0){
             getReult(first_value,second_value, sign)
