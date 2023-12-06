@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    font-family: Arial;
+}
+
+header{
+    background-color: black;
+    color: lightgray;
+    height: 20px;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+a.home{
+    color: lightgray;
+}
+
+.header{
+    margin: 30px;
+    display: inline;
+    font-size: 18px;
+}
+
+.home{
+    display: inline;
+}
+
+.content{
+    margin-left: 50px;
+}
+
+.page_head{
+    margin-top: 10px;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+footer{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.line{
+       border: 1px solid lightgray;
+       margin-left: 50px;
+}
+
+input{
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+    border:1px solid lightgray;  
+    display: block; 
+}
+
+.sign{
+    border: 1px solid lightgray;
+    border-radius: 3px;
+}
+.submit{
+    height: 25px;
+    border: 1px solid lightgray;
+    margin-bottom: 20px;
+}
